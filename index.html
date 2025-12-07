@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Celebration!</title>
+    <link rel="stylesheet" href="stley.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Happy Birthday!</h1>
+            <p class="hero-subtitle">Wishing you a day filled with love, laughter, and all your favorite things!</p>
+            <div class="scroll-indicator">
+                <div class="arrow"></div>
+            </div>
+        </div>
+        <div class="floating-elements">
+            <div class="balloon balloon1">🎈</div>
+            <div class="balloon balloon2">🎈</div>
+            <div class="balloon balloon3">🎈</div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#photos" class="nav-link">Photos</a>
+            <a href="#wishes" class="nav-link">Wishes</a>
+            <a href="#music" class="nav-link">Music</a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="photos" class="photo-gallery">
+            <div class="section-header">
+                <h2>Cute Moments Gallery</h2>
+                <p>Hover over the photos to see captions and click to view larger</p>
+            </div>
+            <div class="gallery">
+                <div class="photo-item featured heart">
+                    <img src="/image.png" alt="Cute Photo 1">
+                    <div class="overlay">
+                        <p class="caption">A sweet smile that lights up the void! This is your special memory - the moment that started it all!</p>
+                        <div class="heart-icon">❤️</div>
+                    </div>
+                </div>
+                <div class="photo-item star">
+                    <img src="/foto2.jpeg" alt="Cute Photo 2">
+                    <div class="overlay">
+                        <p class="caption">Adorable eyes full of wonder.</p>
+                        <div class="heart-icon">❤️</div>
+                    </div>
+                </div>
+                <div class="photo-item flower">
+                    <img src="/foto10.jpeg" alt="Cute Photo 3">
+                    <div class="overlay">
+                        <p class="caption">Cheerful and full of joy with your smile!</p>
+                        <div class="heart-icon">❤️</div>
+                    </div>
+                </div>
+                <div class="photo-item diamond">
+                    <img src="/foto4.jpeg" alt="Cute Photo 4">
+                    <div class="overlay">
+                        <p class="caption">Cute as a button, twice as sweet.</p>
+                        <div class="heart-icon">❤️</div>
+                    </div>
+                </div>
+                <div class="photo-item circle">
+                    <img src="/foto5.jpeg" alt="Cute Photo 5">
+                    <div class="overlay">
+                        <p class="caption">A bundle of cuteness and charm.</p>
+                        <div class="heart-icon">❤️</div>
+                    </div>
+                </div>
+                <div class="photo-item heart">
+                    <img src="/foto6.jpeg" alt="Cute Photo 6">
+                    <div class="overlay">
+                        <p class="caption">Too cute to handle!</p>
+                        <div class="heart-icon">❤️</div>
+                    </div>
+                </div>
+                <div class="photo-item star">
+                    <img src="/foto9.jpeg" alt="Cute Photo 7">
+                    <div class="overlay">
+                        <p class="caption">Golden moments of cuteness.</p>
+                        <div class="heart-icon">❤️</div>
+                    </div>
+                </div>
+                <div class="photo-item flower">
+                    <img src="/foto8.jpeg" alt="Cute Photo 8">
+                    <div class="overlay">
+                        <p class="caption">Pink perfection in every way.</p>
+                        <div class="heart-icon">❤️</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="wishes" class="wishes-section">
+            <div class="section-header">
+                <h2>Birthday Wishes</h2>
+            </div>
+            <div class="wishes-container">
+                <div class="wish-card">
+                    <p>"May your birthday be as sweet as you are!"</p>
+                    <span>- 🐣</span>
+                </div>
+                <div class="wish-card">
+                    <p>"Wishing you a year filled with happiness and success!"</p>
+                    <span> 🐣</span>
+                </div>
+                <div class="wish-card">
+                    <p>"please reduce your bad behavior, okay!!"</p>
+                    <span>- 🐣</span>
+                </div>
+            </div>
+            <form class="wish-form">
+                <input type="text" placeholder="Your name" required>
+                <textarea placeholder="Write your birthday wish..." required></textarea>
+                <button type="submit">Send Wish</button>
+            </form>
+        </section>
+
+        <section id="music" class="music-section">
+            <div class="section-header">
+                <h2>Celebration Music</h2>
+                <p>Enjoy some festive tunes while browsing the gallery</p>
+            </div>
+            <div class="music-player">
+                <audio controls autoplay loop>
+                    <source src="/you belong with me - taylor swift (sped up).mp3" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="music-info">
+                    <h3>Happy Birthday Song</h3>
+                    <p>Traditional celebration melody</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Made with ❤️ for your special day!</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/datboi_alst?igsh=MTBuaWd2N28wdzBjcw==" class="social-link">🐣</a>
+                <a href="" class="social-link">📷</a>
+                <a href="https://www.instagram.com/fariskapke_f?igsh=MXU3M2s4NTF5ODBzdA==" class="social-link">🐣</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Birthday Greeting Modal -->
+    <div id="birthday-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>🎉 Happy Birthday! 🎉</h2>
+                <p>Wishing you a day filled with joy, love, and all your favorite things!</p>
+                <p>May this year bring you endless happiness and success.</p>
+                <button class="modal-btn">Let's Celebrate! 🎂</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="quality.js"></script>
+</body>
+</html>
